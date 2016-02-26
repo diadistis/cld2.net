@@ -2,7 +2,7 @@
 
 ### Summary
 
-CLD2 probabilistically detects over 80 languages in Unicode UTF-8 text, either plain text or HTML/XML. Legacy encodings must be converted to valid UTF-8 by the caller. For mixed-language input, CLD2 returns the top three languages found and their approximate percentages of the total text bytes (e.g. 80% English and 20% French out of 1000 bytes of text means about 800 bytes of English and 200 bytes of French). Optionally, it also returns a vector of text spans with the language of each identified. This may be useful for applying different spelling-correction dictionaries or different machine translation requests to each span. The design target is web pages of at least 200 characters (about two sentences); CLD2 is not designed to do well on very short text, lists of proper names, part numbers, etc.
+CLD2 probabilistically detects over 80 languages in either plain text or HTML/XML. The design target is web pages of at least 200 characters (about two sentences); CLD2 is not designed to do well on very short text, lists of proper names, part numbers, etc.
 
 ### Supported Languages
 These 83 languages are detected: 
