@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>CLD2.Net</id>
+        <version>1.0.0</version>
+        <title>Compact Language Detector 2 for .Net</title>
+        <authors>diadistis</authors>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/diadistis/cld2.net</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A very compact and fast language detector using Compact Language Detector 2 (https://github.com/CLD2Owners/cld2)</description>
+        <summary>Compact and fast language detector for 83 languages</summary>
+        <tags>nlp compact language detector identification detection google cld2</tags>
+    </metadata>
+    <files>
+        <file src="src\Release\CLD2.Net.dll" target="lib\CLD2.Net.dll" />
+    </files>
+</package>
